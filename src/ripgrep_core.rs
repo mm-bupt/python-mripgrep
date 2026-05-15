@@ -34,14 +34,14 @@ pub struct PyArgs {
 impl PyArgs {
     #[new]
     #[pyo3(signature = (
-        patterns, 
-        paths=None, 
-        globs=None, 
-        heading=None, 
+        patterns,
+        paths=None,
+        globs=None,
+        heading=None,
         after_context=None,
         before_context=None,
-        separator_field_context=None, 
-        separator_field_match=None, 
+        separator_field_context=None,
+        separator_field_match=None,
         separator_context=None,
         sort=None,
         max_count=None,
