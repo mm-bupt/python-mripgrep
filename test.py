@@ -1,4 +1,4 @@
-from python_ripgrep import PySortMode, PySortModeKind, files, search
+from python_mripgrep import PySortMode, PySortModeKind, files, search
 
 
 def test_search_with_kwargs() -> None:

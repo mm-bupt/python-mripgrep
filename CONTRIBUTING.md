@@ -1,6 +1,6 @@
-# Contributing to python-ripgrep
+# Contributing to python-mripgrep
 
-Thank you for your interest in contributing to python-ripgrep!
+Thank you for your interest in contributing to python-mripgrep!
 
 ## Development Setup
 
@@ -14,8 +14,8 @@ Thank you for your interest in contributing to python-ripgrep!
 
 ```bash
 # Clone the repository
-git clone https://github.com/indent-com/python-ripgrep.git
-cd python-ripgrep
+git clone https://github.com/mm-bupt/python-mripgrep.git
+cd python-mripgrep
 
 # Build and install in development mode
 maturin develop

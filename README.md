@@ -1,10 +1,10 @@
-# python-ripgrep
+# python-mripgrep
 
 A Python wrapper for ripgrep, providing fast and efficient text searching capabilities.
 
 ## Description
 
-python-ripgrep is a Python package that wraps the functionality of ripgrep, a line-oriented search tool that recursively searches directories for a regex pattern. This package allows you to harness the power and speed of ripgrep directly from your Python code.
+python-mripgrep is a Python package that wraps the functionality of ripgrep, a line-oriented search tool that recursively searches directories for a regex pattern. This package allows you to harness the power and speed of ripgrep directly from your Python code.
 
 ## Features
 
@@ -15,18 +15,18 @@ python-ripgrep is a Python package that wraps the functionality of ripgrep, a li
 
 ## Installation
 
-You can install python-ripgrep using pip:
+You can install python-mripgrep using pip:
 
 ```
-pip install python-ripgrep
+pip install python-mripgrep
 ```
 
 ## Usage
 
-Here's a basic example of how to use python-ripgrep:
+Here's a basic example of how to use python-mripgrep:
 
 ```python
-from python_ripgrep import search
+from python_mripgrep import search
 
 # Perform a simple search, returning a
 # list of string results grouped by file.
@@ -43,7 +43,7 @@ for result in results:
 
 ## API Reference
 
-The main components of python-ripgrep are:
+The main components of python-mripgrep are:
 
 - `search`: The primary function for performing searches
 - `files`: A function for listing files that would be searched (--files equivalent)
@@ -55,7 +55,7 @@ For detailed API documentation, please refer to the source code comments.
 
 ### Direct Rust Integration
 
-Unlike many other ripgrep bindings for Python, python-ripgrep doesn't shell out to the ripgrep command-line tool. Instead, it reimplements core ripgrep logic in Rust and provides a direct interface to Python. This approach offers several advantages:
+Unlike many other ripgrep bindings for Python, python-mripgrep doesn't shell out to the ripgrep command-line tool. Instead, it reimplements core ripgrep logic in Rust and provides a direct interface to Python. This approach offers several advantages:
 
 1. **Performance**: By avoiding the overhead of creating a new process and parsing stdout, this implementation can be more efficient, especially for large-scale searches or when called frequently.
 
@@ -188,4 +188,4 @@ To publish a new version:
 
 ---
 
-This project is maintained by [Indent](https://indent.com).
+This project is maintained by [mm-bupt](https://github.com/mm-bupt).
