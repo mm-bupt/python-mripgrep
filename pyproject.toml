@@ -25,7 +25,7 @@ classifiers = [
 ]
 description = "A Python wrapper for ripgrep"
 name = "python-mripgrep"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = []
 readme = "README.md"
 license = { file = "LICENSE" }
