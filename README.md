@@ -6,6 +6,8 @@ A Python wrapper for ripgrep, providing fast and efficient text searching capabi
 
 python-mripgrep is a Python package that wraps the functionality of ripgrep, a line-oriented search tool that recursively searches directories for a regex pattern. This package allows you to harness the power and speed of ripgrep directly from your Python code.
 
+Modify by maming, to support python3.14
+
 ## Features
 
 - Fast text searching using ripgrep's algorithms
@@ -185,6 +187,8 @@ To publish a new version:
 2. Commit and push changes
 3. Create a new GitHub release with a tag (e.g., `v0.1.0`)
 4. GitHub Actions will automatically build and publish to PyPI
+
+maturin publish
 
 ---
 
